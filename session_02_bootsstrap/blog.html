@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="css/custom-theme.css">
     <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/comments.css">
 </head>
 
 <body>
@@ -116,12 +117,12 @@
         </div>
     </section>
 
-    <section class="mt-5">
+    <section class="mt-5 mb-5">
         <div class="card border-0 shadow-sm rounded-4">
             <div class="card-body p-4">
                 <h3 class="mb-4">Leave a Comment</h3>
                 <div class="d-flex gap-3">
-                    <img src="https://i.pravatar.cc/100" class="rounded-circle comment-avatar">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAV1BMVEX6+vqPj4////+Li4u5ubn8/PyIiIiFhYWJiYnk5OShoaGnp6fT09Pn5+eRkZHu7u7Z2dn19fXCwsKamprHx8exsbHOzs7X19eurq6/v7+jo6Pe3t6WlpZaNtXmAAAE3UlEQVR4nO2d25aqOhBFsUIRbgqI4AX//zsP0fa0vUfbBoKm4ljzpfvROapIIGSFKAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEWamG+P/vn/Owhi5Juu3XZHnp6Lblutm1PT9q5aDKRriVulEqZVBqUSr9pjxh0gyrWOlr273KL05Vh/gyDTkv+jdJIsscEemrNUP9K7oU0W+f6UD1Bz+9rs4xuEOrFSrR/15T7rJwiwjU/y8gF9l3IWoyHxKLAVHxS68AYej1qZDbyRFaIocbaYIjhNHHlajTqygIS2CUqRiquDYqHFAinS0H2S+0WUwijzYThP/KFahjDY8vUWvtIEUkeK5hkkYMz9X83rUoJsQ+pTy2YIrFcJ4ytn8EoZRRCocBEMoostVeFH0LfAUOs4dSK8kpfQ2pbOT4Gp1Et6mvHZr0vEOXPhYQ7vU0TCphRueHAXFj6bsKij95pSrOY9N/xQxktymPLgbJqKfobh3HWhGw0GyIW3d5vuLoeg5f/6j4TdpL9qwczdUoh+DYWhDuhPdpY5PFhdD2dfhboGxdC/ZkMsFZvxMtOH64+9pGnfDjWTBBR7xxT/ku08XqejpcGzTvWub6rXsLnW/EIVfhu7LGNIXMdxnRC16NjRw5FZD2as0F9xuTWU//l7hxmVNeCO/hKaI89dqdAAljBxe4wdxFRp4P7dPpc/2/zNnv5AhFT8X3uBonuE5FMG57/IT4e/VfkDldEU9hFPCyCx+T1XU+6AEzaw4TVH3gQmaZbcpisFV0DDlWkzD3K1Pa8ud0EnbBClotut3NmXUx9B2sd9B2fmZo86DjgVFTOXmr4d+fa4DLuAV4rJ9EF5TOg/fz2ACiBud/rRUiT5vPyF+eIWJ1v3hnGidGMY/566sPione00CR1U21HU9rCs2YWffP+kV8A3fPwQAAIAP7k/1WApJkwpTM/THeFmOfRYJuelhGgo13nYuTaJX3VqCI1W5awDhIUof/K+hzlkZneKY+F7Bmb4uOhXPq3DUv1rQ85t916CaHcrjtegSF51gePDWp1y/o4Q+X5y+p4RjETtPRVxiq6UlnmrovkvPFl9tusS2dTt87SNaInpgh68IBh3eJLhSWxjCcK7h265DX4afP9IsEDa0w1cUaomQkx2+olBLhJwsDT09IrqfEGFt6CkKxY17cNsOb3ujqX2Tobfj+N41mCbeUqVzT56bis+T6t4i6HN/+3va1Gde7z3zhdfd0e4H7jzHb5rN7fg5OzwfUjc3WmGPOvp9NeOW47Iy9P16jXavvf3W/o/+ovyVfeptufsO19Do34IiwmxLnO/1EP8vuQ30sttTJeWIjFcpihE0W/Jf0KhqI0fQbDmZeIz+c9JWxjV4g7lYtlN1LGGz0A+of/jBnOkoJTGMSM1iZdSdzNMhmYbzEiOObkVsZ/sVpv7PDJCdn+wcDfH+UQbIhiByQkzZQc8qpEqSWG5/3sMUlYVOJn5nRieHOpxPzfEoWXcbW0uT8oqHcPS+GH9wVXZ33wT81c18JzCP96F+DfGS5lrvt4d8oy65tTS9bJZOr/k1dc67XV1Foae8Lrv4uamqoS77frfd7nZ9X9ZZ1TQsbEe+E1+Zte+gARJsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACJP/AAFSQ7wNy+LTAAAAAElFTkSuQmCC" class="rounded-circle comment-avatar">
                     <form class="w-100">
                         <div class="mb-3">
                             <input type="text" class="form-control" placeholder="Your name">
@@ -135,6 +136,41 @@
                 </div>
             </div>
         </div>
+
+        <div class="card border-0 shadow-sm rounded-4">
+            <div class="card-body p-4">
+                <h3 class="mb-4">Comments</h3>
+                <!-- comment 1 -->
+                <div class="d-flex gap-3 mb-4">
+                    <img src="https://m.media-amazon.com/images/I/41xBaQHpf8L._AC_UF894,1000_QL80_.jpg" class="rounded-circle comment-avatar" alt="">
+                    <div>
+                        <h6 class="mb-1">Min Yoongi</h6>
+                        <p class="text-secondary mb-2">Will you marry me?</p>
+                        <a href="#" class="text-success text-decoration-none small fw-semibold">Reply</a>
+
+                        <!-- reply -->
+                        <div class="d-flex gap-3 mt-4 ms-5">
+                            <img src="https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/687957819_2299119827285369_1764254454843328899_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHTEuxv0YPARSRMMkdl5ZSvG3rXkAsmUgIbeteQCyZSAgWEHu-JBmopzn0RpjFkY3WB1XAQetQZW2d7QiUtvEM7&_nc_ohc=o_FnD0U90xkQ7kNvwE-xgjE&_nc_oc=AdqJPWNqg76EZeX4m8z58OMtsR-jECbf8GChRDOTKgfqEzYvGU-xOGha0CMD5SCnkiA&_nc_zt=23&_nc_ht=scontent.fhan14-1.fna&_nc_gid=NWux9aOMheqDAzSTHbIMfg&_nc_ss=7b2a8&oh=00_Af6hyvtFfXQnRNFLa76rDkivWRAaZeX_27LbNoTC9j6Hrg&oe=6A0D2A6D" class="rounded-circle comment-avatar" alt="">
+                            <div>
+                                <h6 class="mb-1">Nga Ciu</h6>
+                                <p class="text-secondary mb-0">Of course, I will!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- comment 2 -->
+                <div class="d-flex gap-3">
+                    <img src="https://images.news18.com/ibnlive/uploads/2022/04/sana-twice-16511493874x3.jpg" class="rounded-circle comment-avatar" alt="">
+                    <div>
+                        <h6 class="mb-1">Sana Twice</h6>
+                        <p class="text-secondary mb-2">I'm so happy for you 😽</p>
+                        <a href="#" class="text-success text-decoration-none small fw-semibold">Reply</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
 </body>
 </html>
