@@ -1,0 +1,44 @@
+body {
+    background-color: #f4f0e8;
+}
+
+.blog-card {
+    transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-6px);
+}
+
+.blog-card img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    background: #eee;
+}
+
+
+.sidebar-box {
+    border-radius: 24px;
+}
+
+.sidebar-sticky {
+    top: 100px;
+}
+
+
+
+.tags-cloud .badge {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+@media (max-width: 991px) {
+
+    .sidebar-sticky {
+        position: static !important;
+    }
+
+}
