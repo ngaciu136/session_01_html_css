@@ -1,10 +1,17 @@
 :root {
-    --bs-success: #356d3c;
+    --bs-primary: #198754;
+    --bs-primary-rgb: 25, 135, 84;
+
+    --bs-success: #20c997;
+    --bs-success-rgb: 32, 201, 151;
+
+    --bs-body-bg: #f4f0e8;
+    --bs-body-color: #2d3436;
 }
 
 body {
-    background: #f5f1ea;
-    font-family: "Inter", sans-serif;
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
 }
 
 .display-1,
